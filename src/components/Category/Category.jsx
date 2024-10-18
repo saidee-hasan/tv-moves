@@ -1,4 +1,7 @@
+
+
 import { users } from "../constants";
+
 
 export default function Category() {
   return (
@@ -14,8 +17,9 @@ export default function Category() {
             </li>
           ))}
         </div>
-  
+
       </div>
+   
     </div>
   );
 }

@@ -22,7 +22,7 @@ export const links = [
   {
     href: "/dashboard",
     icon: FaChartBar,
-    text: "Dashboard",
+    text: "Moves",
   },
   {
     href: "#",

@@ -13,6 +13,8 @@ export default function Header({darkMode , toggleDarkMode,toggleSidebar}) {
           
             <a className='sm:text-2xl whitespace-nowrap dark:text-white' href='/'>Dash<span className='text-orange-500'>Board</span></a>
         </div>
+
+
         <button onClick={toggleDarkMode} className="dark:bg-slate-50 dark:text-slate-700 rounded-full p-2 "><IoMoonOutline /></button>
     </div>
 </div>
