@@ -1,4 +1,5 @@
 import { Image } from "@nextui-org/react";
+import { Link } from "react-router-dom";
 
 export default function MovesItem(props) {
    
@@ -8,11 +9,12 @@ export default function MovesItem(props) {
       <Image
        isZoomed
       width={700}
-      height={200}
+      height={220}
       alt="NextUI Fruit Image with Zoom"
       src={thumbnail}
     />
-    <p >{title}</p>
+    <Link to={'/product/'+title}>{title}</Link>
+
 
 
 

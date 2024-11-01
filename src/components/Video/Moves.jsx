@@ -25,13 +25,13 @@ export default function Moves() {
 
   return (
     <div className="">
-    <div className="text-gray-500  bg-gray-100 p-4 sm:ml-40 gap-2 mt-14 grid xl:grid-cols-5  md:grid-cols-4 grid-cols-2  translate-all duration-300  dark:bg-gray-800 p-4 sm:ml-40 md:ml-56 ">
+    <div className="text-gray-500  bg-gray-100 p-4 sm:ml-40 gap-2 mt-14 grid xl:grid-cols-5  md:grid-cols-3 grid-cols-2  translate-all duration-300  dark:bg-gray-800 p-4 sm:ml-40 md:ml-56 ">
     {
        slice.map((all,index) => <VideoItem key={index} all={all}/>) 
     }
 
     </div>
-    <button className="bg-red-300 w-full" onClick={LodeMore}>load</button>
+    <button className="bg-red-300 w-full fixed " onClick={LodeMore}>load</button>
     </div>
   );
 }
