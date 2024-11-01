@@ -6,7 +6,7 @@
 
 
 
-- [Live Link](https://tv-moves.vercel.app/dashboard) 
+- [Live Link](https://tv-moves.vercel.app/) 
 
 
 ![tv-move](./src/assets/fullpagesnap-screenshot-tool__vite--react.png)
